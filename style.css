@@ -1,0 +1,38 @@
+/*-------FLOATING LABEL CSS------*/
+
+/*label styles*/
+.ch {
+	display: block; float: left;
+	position: relative; /*for upward animation*/
+	background: #fff ; 
+}
+.ch:first-child {padding-left: 2px;}
+.ch:last-child {padding-right: 2px;}
+
+/*active input label*/
+.focussed {
+	/*when any input is already focussed clicking on it(label) again won't do anything*/
+	pointer-events: none;
+}
+
+ label.floatLabel {
+    position: absolute;
+    left: 0;
+    top: 0;
+	  z-index:1;
+    padding: 7px 8px;
+    border-color: transparent;
+  /*   color: #666; */
+    cursor: text;
+}
+
+.has-error label.floatLabel, .error label.floatLabel{color:#a94442;}
+
+/*-------FLOATING LABEL CSS ENDS HERE------*/
+
+
+h1{text-align:center;}
+.loginForm{width:300px; margin:auto;position:relative;
+}
+
+.loginForm .form-group{position:relative;}

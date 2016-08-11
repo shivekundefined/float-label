@@ -1,0 +1,31 @@
+{
+  "name": "float-labels",
+  "version": "1.0.0",
+  "description": "Floating labels directive in angular js",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "jquery-easing": "^0.0.1",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivekundefined/float-label.git"
+  },
+  "keywords": [
+    "float-labels",
+    "floating-labels",
+    "movable-labels"
+  ],
+  "author": "Shivek Parmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivekundefined/float-label/issues"
+  },
+  "homepage": "https://github.com/shivekundefined/float-label#readme"
+}

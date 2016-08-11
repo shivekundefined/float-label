@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+     <script src="node_modules/jquery-easing/jquery.easing.1.3.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="float-label.js"></script>
+    <script src="app.js"></script>
+    
+    
+  </head>
+
+  <body ng-app="app">
+    <h1>Floating Labels</h1>
+    
+    <form  name="myForm" class="loginForm " novalidate >
+		<div class="form-group">
+			<input 
+				float-label="Email Address"
+				type = "text"
+				name = "Inputemail"
+				class = "form-control"
+				ng-model = "loginForm.email"
+				invalid-message="'You must enter valid email'"
+				required-message="'Yo! This field is required..'"
+				required>
+		</div>
+		<div class="form-group">
+			<input 
+				float-label="Password"
+				type = "text"
+				name = "InputPassword"
+				class = "form-control"
+				ng-model = "loginForm.password"
+				invalid-message="'You must enter valid Password'"
+				required-message="'Yo! This field is required..'"
+				required>
+		</div>
+	
+		
+	
+	 <button type="submit" id="loginSubmit" class="btn btn-block btn-primary more "><span>Login</span></button>
+	</form>
+    
+  </body>
+
+</html>
